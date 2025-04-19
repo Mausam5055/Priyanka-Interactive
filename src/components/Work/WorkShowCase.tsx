@@ -515,7 +515,7 @@ const WorkShowCase = ({ setLogoColor }: WorkSpaceProps) => {
                 ></path>
               </motion.g>
             </motion.svg>
-            <span className=" text-nowrap opacity-80">All Projects</span>
+            <span className=" text-nowrap opacity-80">All Photos</span>
           </motion.button>
         </section>
         <AllProjects
