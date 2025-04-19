@@ -1,5 +1,8 @@
 import { useGSAP } from "@gsap/react";
 import gsap, { Expo } from "gsap/all";
+import image1 from "../../assets/1.webp";
+import image2 from "../../assets/2.webp";
+import image3 from "../../assets/3.webp";
 
 const Images = () => {
   const position = [
@@ -12,16 +15,14 @@ const Images = () => {
       width: "w-[100%]",
     },
     {
-      image:
-        "src/assets/1.webp",
+      image: image1,
       right: "-right-[40%]",
       top: "top-[10%]",
       height: "h-[35%]",
       width: "w-[50%]",
     },
     {
-      image:
-        "src/assets/2.webp",
+      image: image2,
       right: "right-[60%]",
       top: "top-[90%]",
       height: "h-[40%]",
@@ -115,7 +116,7 @@ const Images = () => {
 
         <img
           className="h-full w-full object-cover"
-          src="src/assets/3.webp"
+          src={image3}
           alt=""
         />
       </div>
