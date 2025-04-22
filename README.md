@@ -1,5 +1,11 @@
 # Priyanka Interactive Portfolio
 
+![React](https://img.shields.io/badge/React-18-blue.svg)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.9.5-blue.svg)
+![TailwindCSS](https://img.shields.io/badge/TailwindCSS-3.3.0-38B2AC.svg)
+![Vite](https://img.shields.io/badge/Vite-4.0.0-646CFF.svg)
+![License](https://img.shields.io/badge/License-MIT-green.svg)
+
 A modern, interactive portfolio website built with React, TypeScript, and GSAP animations.
 
 ## 🖼️ Preview
@@ -9,25 +15,27 @@ A modern, interactive portfolio website built with React, TypeScript, and GSAP a
 
 ## 🚀 Features
 
-- Smooth scrolling with Lenis
-- GSAP animations for enhanced user experience
-- Responsive design with Tailwind CSS
-- Type-safe development with TypeScript
-- Modern React with Hooks
-- Framer Motion for animations
+| Feature | Description |
+|---------|-------------|
+| Smooth Scrolling | Implemented with Lenis for buttery-smooth navigation |
+| Animations | GSAP and Framer Motion for enhanced user experience |
+| Responsive Design | Built with Tailwind CSS for all device sizes |
+| Type Safety | TypeScript for robust development |
+| Modern React | Built with React 18 and Hooks |
+| Performance | Optimized with Vite |
 
 ## 🛠️ Tech Stack
 
-- **Frontend Framework:** React 18
-- **Language:** TypeScript
-- **Styling:** Tailwind CSS
-- **Animation Libraries:**
-  - GSAP
-  - Framer Motion
-- **Routing:** React Router DOM
-- **Build Tool:** Vite
-- **Linting:** ESLint
-- **Package Manager:** npm
+| Category | Technologies |
+|----------|--------------|
+| Frontend Framework | React 18 |
+| Language | TypeScript |
+| Styling | Tailwind CSS |
+| Animation Libraries | GSAP, Framer Motion |
+| Routing | React Router DOM |
+| Build Tool | Vite |
+| Linting | ESLint |
+| Package Manager | npm |
 
 ## 📦 Installation
 
@@ -65,10 +73,12 @@ src/
 
 ## 🔧 Available Scripts
 
-- `npm run dev` - Start development server
-- `npm run build` - Build for production
-- `npm run lint` - Run ESLint
-- `npm run preview` - Preview production build
+| Script | Description |
+|--------|-------------|
+| `npm run dev` | Start development server |
+| `npm run build` | Build for production |
+| `npm run lint` | Run ESLint |
+| `npm run preview` | Preview production build |
 
 ## 📝 License
 
